@@ -4,6 +4,7 @@
   "description": "Run any svelte preprocessor to completion in the markup phase",
   "main": "out/cjs/index.js",
   "module": "out/esm/index.js",
+  "type": "module",
   "exports": {
     "import": "./out/esm/index.js",
     "require": "./out/cjs/index.js"

@@ -30,7 +30,8 @@
     "preprocessor"
   ],
   "files": [
-    "./out",
+    "./out/cjs/index.js",
+    "./out/esm/index.js",
     "./docs"
   ],
   "author": "firefish5000",

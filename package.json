@@ -22,7 +22,6 @@
     "preprocess:typescript:esm": "tsc --module ESNext --outDir \"./out/esm/\"",
     "preprocess:typescript:cjs": "tsc",
     "prepare": "npm run build",
-    "install": "npm run build",
     "prepublishOnly": "run-p check"
   },
   "keywords": [
